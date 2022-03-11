@@ -1,0 +1,45 @@
+/*
+Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por vos: */
+#ejercicioUno {
+    display: flex;/*hace que la caja sea flexible*/
+    text-align: center;/*alinea el texto*/
+
+}
+
+
+#ejercicioDos {
+display:none;/*hace que no se muestra cierto contenido*/
+}
+
+
+
+#ejercicioTres {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#ejercicioCuatro{
+    position: fixed; /*esto hace que el cartel cuando se scrollea queda fijo */
+    top:0%; /*queda arriba de todo*/
+}
+
+#ejercicioCinco{
+    display: flex ;
+    justify-content: space-evenly;/* distribuye todas las partes por iguales separadas */
+flex-direction: row-reverse; /* hace que se invierta la posicion de lo que se ubica en el mismo */
+
+}
+
+#ejercicioSiete {
+display: flex;
+flex-direction: row-reverse;
+
+
+}
